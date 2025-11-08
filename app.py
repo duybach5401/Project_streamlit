@@ -8,7 +8,7 @@ st.title("Admin Dashboard")
 st.sidebar.title ("Menu")
 
 # seclect_menu_item = st.sidebar.radio ("Điều hướng", ["Trang chủ", "Báo cáo", "Người dùng", "Cài đặt"])
-st.sidebar.page_link("app.py", label="Điều hướng")
+# st.sidebar.page_link("app.py", label="Điều hướng")
 st.sidebar.page_link("pages/bt_ontap.py") 
 st.sidebar.page_link("pages/bao_cao.py",label="Báo cáo")
 st.sidebar.page_link("pages/cai_dat.py",label="Cài đặt")
