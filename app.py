@@ -6,6 +6,7 @@ st.title("Admin Dashboard")
 
 # Sidebar
 st.sidebar.title ("Menu")
+st.sidebar.title ("Menu - A")
 
 # seclect_menu_item = st.sidebar.radio ("Điều hướng", ["Trang chủ", "Báo cáo", "Người dùng", "Cài đặt"])
 st.sidebar.page_link("app.py", label="Điều hướng")
